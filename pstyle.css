@@ -1,0 +1,259 @@
+    *{
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', serif;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+
+	background-image: linear-gradient(rgba(100,100,100, 0.0), rgba(100,100,100,0.0)),url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+.some{
+   width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+
+}
+
+.some img{
+    object-position: 0px 0px;
+    max-width: 50%;
+    height: auto%;
+    /*max-height: 150px;
+    max-width: 200px;*/
+}
+
+
+
+
+.comic{
+   width: 1000px;
+	margin: auto;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 100px;
+
+
+}
+
+.comic img {
+    padding: 0;
+    position: relative;
+    display: block;
+    border: 0px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media{
+    .comic img{
+        width: 100%;
+    }
+}
+
+.arrow{
+    width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.arrow img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height:auto;
+}
+
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@media(max-width: 1000px){
+.comic{
+        width:100%
+    }
+	.arrow{
+		width:80%;
+
+	}
+	.arrow img{
+		width:10%;
+
+	}
+}
+
+
+
+
+
+
+
+
+.facilities{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.facilities-col{
+	flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align:left;
+}
+.facilities-col img{
+	width: 100%;
+	border-radius: 10px;
+}
+.facilities-col p{
+	padding: 0;
+}
+.facilities-col h3{
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------course -------- */
+
+.course{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+
+}
+h1{
+	font-size: 36px;
+	font-weight:600;
+
+}
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+
+.course-col{
+	flex-basis: 31%;
+	background: #BDDCFF;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition:0.5s;
+}
+h3{
+	text-align: center;
+	font-size:60;
+	font-weight:600;
+
+}
+.course-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------footer-------------------*/
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.icons .fa{
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+
+}
+.fa-heart-o{
+	color: #f44336;
+}
+
+/*--------about us page-------------*/
+
+.sub-header{
+	height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.0),rgba(4,9,30,0.0)),url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color:#fff;
+
+
+}
+.sub-header h1{
+	margin-top:100px;
+}
+
+
+
+@media(max-width){
+	.sub-header h1{
+		font-size: 21px;
+	}
+}
+
+
+
+

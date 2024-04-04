@@ -1,0 +1,167 @@
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Dungeons and Disasters</title>
+	<link rel="shortcut icon" type = "x-icon" href="images/Eliza.png">
+	<link rel="stylesheet" href="pstyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src = "java.js"></script>
+</head>
+<body>
+<section class="header">
+
+
+<div class="some">
+	<a href="index.html">
+	  			<img src="images/logo.png" alt="logo" class = 'some-img'>
+		</a>
+</div>
+
+
+
+
+
+<div class="arrow">
+
+	<div class="row">
+		<div class = "facilities-col">
+			<a href="page1.html">
+				<img src="images/first_page.png" >
+			</a>
+		</div>
+		<div class = "facilities-col">
+			<a href="page26.html">              <!------PREVIOUS PAGE BUTTON--->
+				<img src="images/previous.png">
+			</a>
+
+		</div>
+			<div class = "facilities-col">
+				<img src="images/counter.png" style="width:50%; margin-left: 25%;">
+
+			</div>
+		<div class = "facilities-col">
+			<a href="page28.html">             <!------NEXT PAGE BUTTON--->
+				<img src="images/next.png">
+			</a>
+
+		</div>
+
+		<div class = "facilities-col">
+			<A href = "javascript:lastpage();">
+                <img src="images/last_page.png">
+            </A>
+
+
+		</div>
+	</div>
+</div>
+
+
+
+<div class="comic">
+	<a href="page28.html">               <!------Comic next PAGE BUTTON--->
+	  			<img src="images/Page_27_Finalfix.png" class="image-main" > <!------COMIC PAGE BUTTON--->
+		</a>
+
+	<br>
+</div>
+
+
+	<div class="arrow">
+		<div class="row">
+		<div class = "facilities-col">
+			<a href="page1.html">
+				<img src="images/first_page.png">
+			</a>
+		</div>
+		<div class = "facilities-col">
+			<a href="page26.html">                      <!------PREVIOUS PAGE BUTTON--->
+				<img src="images/previous.png">
+			</a>
+
+		</div>
+		<div class = "facilities-col">
+				<img src="images/counter.png" style="width:50%; margin-left: 25%;">
+		</div>
+		<div class = "facilities-col">
+			<a href="page28.html">                <!------NEXT PAGE BUTTON--->
+				<img src="images/next.png">
+			</a>
+
+		</div>
+		<div class = "facilities-col">
+			<A href = "javascript:lastpage();">
+                <img src="images/last_page.png">
+            </A>
+		</div>
+	</div>
+
+
+</div>
+
+</section>
+
+
+<!-------course------->
+<section class ="course">
+
+	<h3><font size="+2">29, October 2022</font></h3>
+
+	<p>So, I've got some bad news. <b>The comic is gonna have to put on hiatus, probably until about mid-January when I graduate from fire-recruit school.</b> I went into it thinking it would be mostly be physical training (and there is a lot of that, for sure.) But it's just as much studying and passing chapter tests as it is throwing on your turnout gear and running towers. Point is, I need to study, and devote a lot of time to studying if I actually want to graduate. My schedule this upcoming week is pretty much the same, every day, for the next twelve weeks: Ready in formation at 7:00 am, clean-up crew, chapter test, lecture, then PT, outta there by 4:00 pm. There's a lot of info we have to cover, and there will literally be chapter tests most every day aside from SCBA week. Not to mention, I've got a limited number of tries on these test. Fail more than 3 times? Fired. I can't even keep up with one page a week on that kind of schedule, and even finding time to put finishing touches on this one was sorta difficult.
+	<br><br>
+	    I'll still try to periodically upload to the Creature Index or the Artsy Stuff pages, though. Just yesterday I started working on a concept art while on lunch break, and I'll probably post it within a few days when it's finished. There may be long stretches of radio silence from me, and I won't be making changelogs as frequently or even at all. I can assure you though, work on the book will continue, and come January-February I will get back on a more regular schedule with it. If I'm still not posting after January, it means I've probably died on the job or been assassinated by the CIA. 
+	<br><br>
+	    But, enough about all that. I kinda like that it's this page we end on for a while, sort of a cliffhanger. (I'm sure these next few months will fly by though.) That's all from me for now, hope y'all have a good weekend.</p>
+
+
+</section>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://dndcomic-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<!-------------footer ------------>
+
+<<section class="footer">
+	<!-- <h4>INFORMATION</h4> -->
+	<p>©Johnny Boy<br> <br> made by AMI</p>
+
+
+</section>
+
+
+<!--------JavaScript for toggle menu ------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+</body>
+</html>

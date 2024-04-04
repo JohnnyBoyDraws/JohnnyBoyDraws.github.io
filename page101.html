@@ -1,0 +1,163 @@
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Dungeons and Disasters</title>
+	<link rel="shortcut icon" type = "x-icon" href="images/Eliza.png">
+	<link rel="stylesheet" href="pstyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src = "java.js"></script>
+</head>
+<body>
+<section class="header">
+
+
+<div class="some">
+	<a href="index.html">
+	  			<img src="images/logo.png" alt="logo" class = 'some-img'>
+		</a>
+</div>
+
+
+
+
+
+<div class="arrow">
+
+	<div class="row">
+		<div class = "facilities-col">
+			<a href="page1.html">
+				<img src="images/first_page.png" >
+			</a>
+		</div>
+		<div class = "facilities-col">
+			<a href="page100.html">              <!------PREVIOUS PAGE BUTTON--->
+				<img src="images/previous.png">
+			</a>
+
+		</div>
+			<div class = "facilities-col">
+				<img src="images/counter.png" style="width:50%; margin-left: 25%;">
+
+			</div>
+		<div class = "facilities-col">
+			<a href="page102.html">             <!------NEXT PAGE BUTTON--->
+				<img src="images/next.png">
+			</a>
+
+		</div>
+
+		<div class = "facilities-col">
+			<A href = "javascript:lastpage();">
+                <img src="images/last_page.png">
+            </A>
+
+
+		</div>
+	</div>
+</div>
+
+
+
+<div class="comic">
+	<a href="page102.html">               <!------Comic next PAGE BUTTON--->
+	  			<img src="images/Page_101_Final.png" class="image-main" > <!------COMIC PAGE BUTTON--->
+		</a>
+
+	<br>
+</div>
+
+
+	<div class="arrow">
+		<div class="row">
+		<div class = "facilities-col">
+			<a href="page1.html">
+				<img src="images/first_page.png">
+			</a>
+		</div>
+		<div class = "facilities-col">
+			<a href="page100.html">                      <!------PREVIOUS PAGE BUTTON--->
+				<img src="images/previous.png">
+			</a>
+
+		</div>
+		<div class = "facilities-col">
+				<img src="images/counter.png" style="width:50%; margin-left: 25%;">
+		</div>
+		<div class = "facilities-col">
+			<a href="page102.html">                <!------NEXT PAGE BUTTON--->
+				<img src="images/next.png">
+			</a>
+
+		</div>
+		<div class = "facilities-col">
+			<A href = "javascript:lastpage();">
+                <img src="images/last_page.png">
+            </A>
+		</div>
+	</div>
+
+
+</div>
+
+</section>
+
+
+<!-------course------->
+<section class ="course">
+
+	<h3><font size="+2">12, December 2023</font></h3>
+
+	<p><font size="+1"><h2></h2>Hmm, strange happenings on this page. Maybe the void isn't such a void after all...<br><br>I'm almost done with this chapter on my end, only a couple more pages. Should end on page 109 or 110. I'm excited to get to that point because I feel like this half of the book is going to feel more like the rest of the series; Connor and Eliza getting out of (and into) trouble. I still can't shake the feeling that the first half has felt too much like "setup" for everything else, but maybe that's not as bad a thing as I think it is. Ah well.<br><br>Anyways, thanks for reading, more to come.</p>
+
+
+</section>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://dndcomic-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<!-------------footer ------------>
+
+<<section class="footer">
+	<!-- <h4>INFORMATION</h4> -->
+	<p>©Johnny Boy<br> <br> made by AMI</p>
+
+
+</section>
+
+
+<!--------JavaScript for toggle menu ------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+</body>
+</html>

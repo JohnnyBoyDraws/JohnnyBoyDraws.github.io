@@ -1,0 +1,163 @@
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Dungeons and Disasters</title>
+	<link rel="shortcut icon" type = "x-icon" href="images/Eliza.png">
+	<link rel="stylesheet" href="pstyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src = "java.js"></script>
+</head>
+<body>
+<section class="header">
+
+
+<div class="some">
+	<a href="index.html">
+	  			<img src="images/logo.png" alt="logo" class = 'some-img'>
+		</a>
+</div>
+
+
+
+
+
+<div class="arrow">
+
+	<div class="row">
+		<div class = "facilities-col">
+			<a href="page1.html">
+				<img src="images/first_page.png" >
+			</a>
+		</div>
+		<div class = "facilities-col">
+			<a href="page74.html">              <!------PREVIOUS PAGE BUTTON--->
+				<img src="images/previous.png">
+			</a>
+
+		</div>
+			<div class = "facilities-col">
+				<img src="images/counter.png" style="width:50%; margin-left: 25%;">
+
+			</div>
+		<div class = "facilities-col">
+			<a href="page76.html">             <!------NEXT PAGE BUTTON--->
+				<img src="images/next.png">
+			</a>
+
+		</div>
+
+		<div class = "facilities-col">
+			<A href = "javascript:lastpage();">
+                <img src="images/last_page.png">
+            </A>
+
+
+		</div>
+	</div>
+</div>
+
+
+
+<div class="comic">
+	<a href="page76.html">               <!------Comic next PAGE BUTTON--->
+	  			<img src="images/Page_75_Final.png" class="image-main" > <!------COMIC PAGE BUTTON--->
+		</a>
+
+	<br>
+</div>
+
+
+	<div class="arrow">
+		<div class="row">
+		<div class = "facilities-col">
+			<a href="page1.html">
+				<img src="images/first_page.png">
+			</a>
+		</div>
+		<div class = "facilities-col">
+			<a href="page74.html">                      <!------PREVIOUS PAGE BUTTON--->
+				<img src="images/previous.png">
+			</a>
+
+		</div>
+		<div class = "facilities-col">
+				<img src="images/counter.png" style="width:50%; margin-left: 25%;">
+		</div>
+		<div class = "facilities-col">
+			<a href="page76.html">                <!------NEXT PAGE BUTTON--->
+				<img src="images/next.png">
+			</a>
+
+		</div>
+		<div class = "facilities-col">
+			<A href = "javascript:lastpage();">
+                <img src="images/last_page.png">
+            </A>
+		</div>
+	</div>
+
+
+</div>
+
+</section>
+
+
+<!-------course------->
+<section class ="course">
+
+	<h3><font size="+2">29, September 2023</font></h3>
+
+	<p><font size="+1"><h2></h2>One of the reasons I'm liking this chapter so far is that the actual plot starts to move, lol. I wonder what sort of weird potentially ghostly stuff Connor will run into here... <br><br> On my end, there are some upcoming changes to the site to look forward to. I've already been chipping away at some retconned lore stuff, but the actual format of the indexes is going to change soon as well. I'll have more details on it once me and Ami get a little closer to making it workable, but the jist of it is that I want to have smaller button icons you can click on for more info and a larger image (like there is on the interactive map.) In theory, I think it'll reduce load times since the button images will be small jpeg's, and then the larger high-res png's will only load once you've clicked on a button. It'll make more sense in practice, hopefully. <br><br> Thanks again for reading.</p>
+
+
+</section>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://dndcomic-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<!-------------footer ------------>
+
+<<section class="footer">
+	<!-- <h4>INFORMATION</h4> -->
+	<p>©Johnny Boy<br> <br> made by AMI</p>
+
+
+</section>
+
+
+<!--------JavaScript for toggle menu ------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+</body>
+</html>
